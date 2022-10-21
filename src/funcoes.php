@@ -20,14 +20,6 @@ class Funcoes
         return $res;
     }
 
-
-
-
-
-
-
-
-
     /*
 
     Desenvolva uma função que receba como parâmetro um número inteiro e retorne o numero primo imediatamente anterior ao número recebido
@@ -90,7 +82,6 @@ class Funcoes
         return  array_slice($array, -2, 1)[0];
     }
 
-
     /*
    Desenvolva uma função que receba como parâmetro um array de números inteiros e responda com TRUE or FALSE se é possível obter uma sequencia crescente removendo apenas um elemento do array.
 
@@ -121,10 +112,10 @@ class Funcoes
 
      * */
 
-    public function SequenciaCrescente(array $arr): boolean {
-        foreach($arr as $arr => $key){
-            $status = $arr[$key];
+    // public function SequenciaCrescente(array $arr): boolean {
+    //     foreach($arr as $arr => $key){
+    //         $status = $arr[$key];
             
-        }
-    }
+    //     }
+    // }
 }
