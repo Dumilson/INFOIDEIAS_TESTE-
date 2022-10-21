@@ -5,11 +5,5 @@ use SRC\Funcoes;
 require_once 'src/funcoes.php';
 
 $object = new Funcoes();
-echo "<pre>";
-var_dump($object->SegundoMaior(array (
-    array(25,22,18),
-    array(10,75,70),
-    array(24,5,2),
-    array(80,17,15)
-)));
-echo "</pre>";
+$data = $object->SequenciaCrescente([1, 2, 3, 4, 4, 5, 5]);
+ var_dump($data);
